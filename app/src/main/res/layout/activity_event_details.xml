@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.musa.tourmate.Activity.EventDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tvEventName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chittagong Tour"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="23dp"
+            android:textStyle="italic"
+            />
+        <TextView
+            android:id="@+id/tvBidgetStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Budget Status (2000/5000)"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textSize="18dp"
+
+            />
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_weight="10"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+
+           >
+
+           <TextView
+               android:id="@+id/tvExpenseStatus"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="2"
+               android:text="100%"
+               android:layout_marginLeft="5dp"
+               android:textColor="#000"
+               android:textSize="18dp"
+               />
+           <ProgressBar
+               android:id="@+id/progressBar"
+               style="?android:attr/progressBarStyleHorizontal"
+               android:layout_width="0dp"
+               android:layout_height="30dp"
+               android:layout_weight="10"
+               />
+
+           <TextView
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="2"
+               android:text="100%"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:textColor="#000"
+               android:textSize="18dp"
+               />
+
+
+       </LinearLayout>
+        <TextView
+            android:id="@+id/tvExpenseAlart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#c20a0a"
+            android:layout_marginBottom="10dp"
+            />
+
+
+    </LinearLayout>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       android:background="@drawable/back">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="2dp"
+           android:background="#000"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="Expenditure"
+               android:textStyle="bold"
+               android:textSize="23dp"
+               android:textColor="#000"
+               android:layout_marginLeft="20dp"
+               />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:background="#fff">
+
+               <TextView
+                   android:id="@+id/addNewExpense"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Add New Expense"
+                   android:layout_marginLeft="20dp"
+                   android:textSize="20dp"
+                   android:textColor="#000"
+                   />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="2dp"
+                   android:background="#000"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:background="#fff">
+
+               <TextView
+                   android:id="@+id/viewAllExpense"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="View All Expense"
+                   android:layout_marginLeft="20dp"
+                   android:textSize="20dp"
+                   android:textColor="#000"
+                   />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="2dp"
+                   android:background="#000"/>
+           </LinearLayout>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:background="#fff">
+
+               <TextView
+                   android:id="@+id/addMoreBudget"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="Add More Budget"
+                   android:layout_marginLeft="20dp"
+                   android:textSize="20dp"
+                   android:textColor="#000"
+                   />
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="2dp"
+                   android:background="#000"/>
+           </LinearLayout>
+
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/back"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moments"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/takePhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Take a Photo"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/viewAllMoments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View All Moments"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:background="@drawable/back"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="More On Event"
+            android:textStyle="bold"
+            android:textSize="23dp"
+            android:textColor="#000"
+            android:layout_marginLeft="20dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/editEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Edit Event"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/deleteEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Delete Event"
+                android:layout_marginLeft="20dp"
+                android:textSize="20dp"
+                android:textColor="#000"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#000"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+

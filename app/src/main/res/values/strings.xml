@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tour Mate</string>
+    <string name="title_activity_main">All Events</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="api_key">AIzaSyDYV9ZsgASJzQ1LrVTvoTvlpt0Z2el02EE</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

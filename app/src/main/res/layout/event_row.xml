@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chittagong Tour"
+            android:textSize="25sp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll1"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create On : "
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/tvcreatDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20/10/2017"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll2"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starts On : "
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textStyle="italic"
+            />
+
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20/10/2017"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvDaysLeft"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="3 days left"
+        android:textSize="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/ll2"
+        android:textStyle="italic"
+        android:textColor="#000"
+        android:layout_alignParentRight="true"/>
+
+
+
+
+
+
+</RelativeLayout>
